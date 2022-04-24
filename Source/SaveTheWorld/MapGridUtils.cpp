@@ -8,9 +8,9 @@
 TArray<int32> UMapGridUtils::GenerateGrid(int32 size) {
 	TArray<int32> grid;
 	grid.Init(0, size * size);
-	int32 startX = 0;
+	int32 startX = FMath::RandRange(0, size-1);
 	int32 startY = 0;
-	int32 endX = size - 1;
+	int32 endX = FMath::RandRange(0, size - 1);
 	int32 endY = size - 1;
 	int32 counter = 1;
 	grid[startX * size + startY] = counter;
