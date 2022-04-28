@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{5de14aaa-58a9-4bb3-bcc3-044fe3d6310f}">
+		<property name="assetPath">
+			<value>FX/Towers/Plasma Gun/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{75dfd2e4-bd7a-495b-a4a2-04d695630eed}</destination>
+		</relationship>
+	</object>
+</objects>
