@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7756aaa9-c407-4d12-a686-848ee962c531}">
+		<property name="assetPath">
+			<value>heartofeternity.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>119.184</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{75dfd2e4-bd7a-495b-a4a2-04d695630eed}</destination>
+		</relationship>
+	</object>
+</objects>
