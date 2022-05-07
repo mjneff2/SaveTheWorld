@@ -18,9 +18,6 @@ TArray<int32> UMapGridUtils::GenerateGrid(int32 size) {
 	int32 nextY = startY;
 	int32 iterations = 0;
 	while (nextX != endX || nextY != endY) {
-		if (iterations++ > 1000) {
-			return grid;
-		}
 		int32 oldX = nextX;
 		int32 oldY = nextY;
 		switch (FMath::RandRange(0, 3)) {
@@ -44,9 +41,6 @@ TArray<int32> UMapGridUtils::GenerateGrid(int32 size) {
 		int32 bfs_iterations = 0;
 		TSet<int32> visited;
 		while (!queue.IsEmpty()) {
-			if (bfs_iterations++ > 1000) {
-				return grid;
-			}
 			int32 currentX = queue.Peek()->Key;
 			int32 currentY = queue.Peek()->Value;
 			if (currentX == endX && currentY == endY) {
